@@ -1,0 +1,17 @@
+.widget {
+    background-color: rgb(252, 203, 203);
+    height: 100px;
+    stroke: black;
+    border-radius: 2px;
+    place-self: center;
+    margin-bottom: 20px;
+    place-self: center stretch;
+  }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 15px;
+  grid-auto-flow: row;
+}
